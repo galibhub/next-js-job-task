@@ -1,36 +1,179 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛒 RenykMart - E-Commerce Application
 
-## Getting Started
+A modern e-commerce web application built with **Next.js 15** (App Router), featuring a responsive design, authentication system, and shopping cart functionality.
 
-First, run the development server:
+## 🌐 Live Demo
 
+🔗 **[View Live Site](https://next-js-job-task-rageyfzss-ibrahim-ahmed-galibs-projects.vercel.app)**
+
+## 📋 Features
+
+### 1. Landing Page (7 Sections)
+- **Banner** - Hero section with call-to-action
+- **Categories** - Browse products by category
+- **Products** - Featured products display
+- **Deals** - Special offers and promotions
+- **Features** - Why choose us (shipping, security, returns, support)
+- **Testimonials** - Customer reviews
+- **Newsletter** - Email subscription
+
+### 2. Authentication
+- Mock login with hardcoded credentials
+- Credentials stored in cookies
+- Protected routes for unauthenticated users
+- Logout functionality
+
+**Test Credentials:**
+```
+Email: test@test.com
+Password: 123456
+```
+
+### 3. Products Page
+- Publicly accessible
+- Displays all products from JSON data
+- Each product card shows: name, description, price, discount price, rating, stock status, and image
+- Add to Cart functionality
+
+### 4. Product Details Page
+- Publicly accessible
+- Shows full details of a single product
+- Dynamic routing (`/products/[id]`)
+
+### 5. Shopping Cart
+- Add/Remove products
+- Update quantity
+- Cart persistence with LocalStorage
+- Cart count in navbar
+- Protected route (requires login)
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 15 (App Router)
+- **Styling:** Tailwind CSS + DaisyUI
+- **Icons:** React Icons
+- **Authentication:** Cookie-based (js-cookie)
+- **State Management:** React Context API
+- **Deployment:** Vercel
+
+## 📁 Project Structure
+
+```
+src/
+├── app/
+│   ├── page.jsx              # Home page
+│   ├── layout.jsx            # Root layout
+│   ├── globals.css           # Global styles
+│   ├── about/page.jsx        # About page
+│   ├── contact/page.jsx      # Contact page
+│   ├── login/page.jsx        # Login page
+│   ├── cart/page.jsx         # Shopping cart
+│   └── products/
+│       ├── page.jsx          # Products listing
+│       ├── loading.jsx       # Loading skeleton
+│       └── [id]/page.jsx     # Product details
+├── component/
+│   ├── buttons/
+│   │   ├── CartButton.jsx
+│   │   └── NavLink.jsx
+│   ├── card/
+│   │   └── ProductCard.jsx
+│   ├── home/
+│   │   ├── Banner.jsx
+│   │   ├── Categories.jsx
+│   │   ├── Deals.jsx
+│   │   ├── Features.jsx
+│   │   ├── Newsletter.jsx
+│   │   ├── Products.jsx
+│   │   └── Testimonials.jsx
+│   ├── layouts/
+│   │   ├── Footer.jsx
+│   │   ├── Logo.jsx
+│   │   └── Navbar.jsx
+│   └── skeleton/
+│       └── ProductSkeleton.jsx
+├── context/
+│   └── CartContext.jsx       # Cart state management
+├── data/
+│   └── product.json          # Product data
+└── actions/
+    └── server/
+        └── product.js        # Server actions
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ 
+- npm / yarn / pnpm / bun
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/galibhub/next-js-job-task.git
+cd next-js-job-task
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🔐 Route Protection
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Route | Access |
+|-------|--------|
+| `/` | Public |
+| `/products` | Public |
+| `/products/[id]` | Public |
+| `/about` | Public |
+| `/contact` | Public |
+| `/login` | Public |
+| `/cart` | Protected (Login Required) |
 
-## Learn More
+## 📦 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+Deployed on **Vercel**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# Install Vercel CLI
+npm i -g vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Deploy
+vercel --prod
+```
 
-## Deploy on Vercel
+## 📝 API/Data Source
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Products are fetched from local JSON file (`src/data/product.json`) containing 30 products across categories:
+- Electronics
+- Home & Living
+- Fashion
+- Daily Essentials
+- Kids
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 👨‍💻 Author
+
+**Ibrahim Ahmed Galib**
+
+- GitHub: [@galibhub](https://github.com/galibhub)
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
