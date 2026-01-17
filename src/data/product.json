@@ -1,0 +1,385 @@
+[
+  {
+    "id": "1",
+    "name": "Wireless Bluetooth Headphones",
+    "category": "Electronics",
+    "price": 49.99,
+    "discountPrice": 39.99,
+    "rating": 4.5,
+    "stock": 120,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "High quality wireless headphones with deep bass.",
+    "description": "Experience immersive sound with these wireless Bluetooth headphones.",
+    "brand": "SoundMax"
+  },
+  {
+    "id": "2",
+    "name": "Smart Watch Series 6",
+    "category": "Electronics",
+    "price": 89.99,
+    "discountPrice": 79.99,
+    "rating": 4.6,
+    "stock": 75,
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Modern smartwatch with fitness tracking.",
+    "description": "Track health, steps, and notifications with this smart watch.",
+    "brand": "TechWear"
+  },
+  {
+    "id": "3",
+    "name": "Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 59.99,
+    "discountPrice": 49.99,
+    "rating": 4.7,
+    "stock": 60,
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Durable mechanical keyboard.",
+    "description": "Mechanical keyboard for typing and gaming.",
+    "brand": "KeyMaster"
+  },
+  {
+    "id": "4",
+    "name": "Gaming Mouse RGB",
+    "category": "Electronics",
+    "price": 19.99,
+    "discountPrice": 16.99,
+    "rating": 4.6,
+    "stock": 140,
+    "image": "https://images.unsplash.com/photo-1615655406736-b37c4fabf923?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "High precision RGB gaming mouse.",
+    "description": "Designed for gamers with adjustable DPI.",
+    "brand": "ProGamer"
+  },
+  
+  {
+    "id": "6",
+    "name": "LED Desk Lamp",
+    "category": "Home & Living",
+    "price": 22.5,
+    "discountPrice": 18.99,
+    "rating": 4.2,
+    "stock": 80,
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Modern LED desk lamp.",
+    "description": "Energy efficient lamp for reading and work.",
+    "brand": "BrightHome"
+  },
+  {
+    "id": "7",
+    "name": "Office Desk Chair",
+    "category": "Home & Living",
+    "price": 79.99,
+    "discountPrice": 69.99,
+    "rating": 4.6,
+    "stock": 40,
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Comfortable office chair.",
+    "description": "Ergonomic chair for long working hours.",
+    "brand": "ComfortSeat"
+  },
+  {
+    "id": "8",
+    "name": "Wall Clock",
+    "category": "Home & Living",
+    "price": 18.99,
+    "discountPrice": 15.99,
+    "rating": 4.1,
+    "stock": 85,
+    "image": "https://images.unsplash.com/photo-1508963493744-76fce69379c0?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Minimal wall clock.",
+    "description": "Simple clock for home decor.",
+    "brand": "TimeZone"
+  },
+  {
+    "id": "9",
+    "name": "Coffee Mug",
+    "category": "Home & Living",
+    "price": 9.99,
+    "discountPrice": 7.99,
+    "rating": 4.1,
+    "stock": 200,
+    "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Ceramic coffee mug.",
+    "description": "Perfect mug for hot drinks.",
+    "brand": "DailySip"
+  },
+  {
+    "id": "10",
+    "name": "Kitchen Knife Set",
+    "category": "Home & Living",
+    "price": 44.99,
+    "discountPrice": 39.99,
+    "rating": 4.6,
+    "stock": 45,
+    "image": "https://images.unsplash.com/photo-1593618998160-e34014e67546?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Durable knife set.",
+    "description": "Sharp knives for kitchen use.",
+    "brand": "ChefPro"
+  },
+
+  {
+    "id": "11",
+    "name": "Men's Casual Sneakers",
+    "category": "Fashion",
+    "price": 39.5,
+    "discountPrice": 34.99,
+    "rating": 4.3,
+    "stock": 60,
+    "image": "https://images.unsplash.com/photo-1528701800489-20be3c2ea0a7?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Comfortable casual sneakers.",
+    "description": "Stylish shoes for daily wear.",
+    "brand": "UrbanStep"
+  },
+  {
+    "id": "12",
+    "name": "Leather Wallet",
+    "category": "Fashion",
+    "price": 17.99,
+    "discountPrice": 14.99,
+    "rating": 4.3,
+    "stock": 130,
+    "image": "https://images.unsplash.com/photo-1600180758890-6b94519a8ba6?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Genuine leather wallet.",
+    "description": "Slim wallet with card slots.",
+    "brand": "LeatherCraft"
+  },
+  {
+    "id": "13",
+    "name": "Women's Sunglasses",
+    "category": "Fashion",
+    "price": 14.99,
+    "discountPrice": 11.99,
+    "rating": 4.4,
+    "stock": 95,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Stylish UV sunglasses.",
+    "description": "Protect eyes from sunlight.",
+    "brand": "SunStyle"
+  },
+  {
+    "id": "14",
+    "name": "Backpack Travel Bag",
+    "category": "Fashion",
+    "price": 36.5,
+    "discountPrice": 31.99,
+    "rating": 4.6,
+    "stock": 55,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Spacious travel backpack.",
+    "description": "Durable bag with compartments.",
+    "brand": "PackGo"
+  },
+
+ 
+
+  {
+    "id": "16",
+    "name": "USB Fast Charging Cable",
+    "category": "Electronics",
+    "price": 7.99,
+    "discountPrice": 5.99,
+    "rating": 4.2,
+    "stock": 300,
+    "image": "https://images.unsplash.com/photo-1583863788434-e58a36330e05?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Fast charging cable.",
+    "description": "Durable USB charging cable.",
+    "brand": "ChargeX"
+  },
+
+  {
+    "id": "17",
+    "name": "Stainless Steel Water Bottle",
+    "category": "Daily Essentials",
+    "price": 12.49,
+    "discountPrice": 9.99,
+    "rating": 4.3,
+    "stock": 180,
+    "image": "https://images.unsplash.com/photo-1523362628745-0c100150b504?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Reusable water bottle.",
+    "description": "Keeps drinks hot or cold.",
+    "brand": "EcoSip"
+  },
+
+  {
+    "id": "18",
+    "name": "Kids School Backpack",
+    "category": "Kids",
+    "price": 25.99,
+    "discountPrice": 21.99,
+    "rating": 4.5,
+    "stock": 100,
+    "image": "https://images.unsplash.com/photo-1578894387798-1c5d9e03fba4?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Lightweight school bag.",
+    "description": "Comfortable backpack for kids.",
+    "brand": "KidPack"
+  },
+
+  {
+    "id": "19",
+    "name": "Office Notebook",
+    "category": "Daily Essentials",
+    "price": 5.99,
+    "discountPrice": 4.99,
+    "rating": 4.0,
+    "stock": 250,
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Notebook for office use.",
+    "description": "Smooth pages for writing.",
+    "brand": "NotePro"
+  },
+
+  {
+    "id": "20",
+    "name": "Laptop Backpack",
+    "category": "Electronics",
+    "price": 42.99,
+    "discountPrice": 37.99,
+    "rating": 4.6,
+    "stock": 70,
+    "image": "https://images.unsplash.com/photo-1517256673644-36ad11246d21?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Backpack for laptops.",
+    "description": "Protects laptop during travel.",
+    "brand": "SafePack"
+  },
+
+  {
+    "id": "21",
+    "name": "Wireless Mouse",
+    "category": "Electronics",
+    "price": 14.99,
+    "discountPrice": 11.99,
+    "rating": 4.4,
+    "stock": 160,
+    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Wireless mouse for work.",
+    "description": "Smooth tracking mouse.",
+    "brand": "ClickPro"
+  },
+
+  {
+    "id": "22",
+    "name": "Smartphone Stand",
+    "category": "Electronics",
+    "price": 9.99,
+    "discountPrice": 7.99,
+    "rating": 4.2,
+    "stock": 190,
+    "image": "https://images.unsplash.com/photo-1585386959984-a41552231692?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Adjustable phone stand.",
+    "description": "Perfect for desk use.",
+    "brand": "StandGo"
+  },
+
+  {
+    "id": "23",
+    "name": "Desk Organizer",
+    "category": "Home & Living",
+    "price": 16.99,
+    "discountPrice": 13.99,
+    "rating": 4.3,
+    "stock": 120,
+    "image": "https://images.unsplash.com/photo-1593642532973-d31b6557fa68?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Organize your desk.",
+    "description": "Keep workspace clean.",
+    "brand": "DeskMate"
+  },
+
+  {
+    "id": "24",
+    "name": "Table Fan",
+    "category": "Home & Living",
+    "price": 29.99,
+    "discountPrice": 24.99,
+    "rating": 4.2,
+    "stock": 50,
+    "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Compact table fan.",
+    "description": "Cool air for home use.",
+    "brand": "AirFlow"
+  },
+
+  {
+    "id": "25",
+    "name": "Bluetooth Earbuds",
+    "category": "Electronics",
+    "price": 39.99,
+    "discountPrice": 32.99,
+    "rating": 4.5,
+    "stock": 90,
+    "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Wireless earbuds.",
+    "description": "Clear sound with compact design.",
+    "brand": "SoundGo"
+  },
+
+  {
+    "id": "26",
+    "name": "Power Bank 10000mAh",
+    "category": "Electronics",
+    "price": 24.99,
+    "discountPrice": 19.99,
+    "rating": 4.6,
+    "stock": 130,
+    "image": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Portable power bank.",
+    "description": "Charge devices on the go.",
+    "brand": "PowerMax"
+  },
+
+  {
+    "id": "27",
+    "name": "Wireless Charging Pad",
+    "category": "Electronics",
+    "price": 21.99,
+    "discountPrice": 17.99,
+    "rating": 4.4,
+    "stock": 85,
+    "image": "https://images.unsplash.com/photo-1583863788434-e58a36330e05?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Fast wireless charging.",
+    "description": "Charge phones wirelessly.",
+    "brand": "ChargePro"
+  },
+
+  {
+    "id": "28",
+    "name": "Bedside Table Lamp",
+    "category": "Home & Living",
+    "price": 26.99,
+    "discountPrice": 21.99,
+    "rating": 4.3,
+    "stock": 60,
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Soft light bedside lamp.",
+    "description": "Warm light for night use.",
+    "brand": "GlowHome"
+  },
+
+  {
+    "id": "29",
+    "name": "Travel Trolley Bag",
+    "category": "Fashion",
+    "price": 89.99,
+    "discountPrice": 79.99,
+    "rating": 4.7,
+    "stock": 35,
+    "image": "https://images.unsplash.com/photo-1562158070-622a4c55e3b8?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Durable travel trolley.",
+    "description": "Perfect for long trips.",
+    "brand": "TravelPro"
+  },
+
+  {
+    "id": "30",
+    "name": "Office Table",
+    "category": "Home & Living",
+    "price": 129.99,
+    "discountPrice": 109.99,
+    "rating": 4.6,
+    "stock": 20,
+    "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?w=800&q=80&auto=format&fit=crop",
+    "shortDescription": "Modern office table.",
+    "description": "Spacious table for office work.",
+    "brand": "WorkSpace"
+  }
+]
