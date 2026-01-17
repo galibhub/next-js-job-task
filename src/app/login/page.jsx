@@ -46,6 +46,16 @@ export default function LoginPage() {
         />
 
         <button className="btn btn-primary w-full">Login</button>
+         {/* Demo Credentials Info */}
+        <div className="mt-6 p-4 bg-gray-100 rounded-lg border border-gray-200">
+          <p className="text-sm font-semibold text-gray-700 mb-2">🔐 Demo Credentials:</p>
+          <p className="text-sm text-gray-600">
+            <span className="font-medium">Email:</span> admin@example.com
+          </p>
+          <p className="text-sm text-gray-600">
+            <span className="font-medium">Password:</span> 123456
+          </p>
+        </div>
       </form>
     </div>
   );
