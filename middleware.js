@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 export function middleware(req) {
   const auth = req.cookies.get("auth")?.value;
 
-  if (!auth && req.nextUrl.pathname.startsWith("/products")) {
+  if (!auth && req.nextUrl.pathname.startsWith("/cart")) {
     return NextResponse.redirect(new URL("/login", req.url));
   }
 
@@ -11,5 +11,5 @@ export function middleware(req) {
 }
 
 export const config = {
-  matcher: ["/products/:path*"],
+  matcher: ["/cart/:path*"],
 };
